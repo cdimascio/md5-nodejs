@@ -1,5 +1,8 @@
 # md5-node
 
+![](https://travis-ci.com/cdimascio/md5-node.svg?branch=master)
+![](https://img.shields.io/badge/license-MIT-blue.svg)
+
 A module to hash data to MD5 or convert MD5 to UUIDs.
 
 <p align="center">
