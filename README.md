@@ -44,7 +44,7 @@ const hash = md5(int16Array);
 #### Hash objects
 ```javascript
 const hash = md5({
-	name: 'carmine'
+    name: 'carmine'
 });
 ```
 
@@ -57,6 +57,12 @@ const hash = md5(['hash', 'this', 'array']);
 ```javascript
 const hash = md5(3.14159265359);
 const hash = md5(true);
+```
+
+## Convert to MD5 to UUID
+
+```javascript
+const uuid = md5ToUuid(md5Hash)
 ```
 
 ## License
