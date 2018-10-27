@@ -3,7 +3,7 @@
 ![](https://travis-ci.com/cdimascio/md5-node.svg?branch=master)
 ![](https://img.shields.io/badge/license-MIT-blue.svg)
 
-A node module that hashes data to MD5. It can also convert MD5 hashes to UUIDs. (Builds on Node.js lib crypto).
+A node module that hashes data to MD5.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/cdimascio/md5-node/master/assets/md5-node.png" width="300px">
@@ -18,9 +18,8 @@ npm install md5-node
 ## Usage
 
 ```javascript
-const { md5, md5ToUuid } = require('md5-nodejs');
+const md5 = require('md5-nodejs');
 const hash = md5('data to hash');
-const uuid = md5ToUuid(hash)
 ```
 
 ### Hash Anything!
@@ -59,12 +58,6 @@ const hash = md5(3.14159265359);
 const hash = md5(true);
 ```
 
-## Convert to MD5 to UUID
-
-```javascript
-const { md5ToUuid } = require('md5-nodejs');
-const uuid = md5ToUuid(md5Hash)
-```
 
 ## License
 [MIT](LICENSE)

@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const { md5, md5ToUuid } = require('../lib/index');
+const md5 = require('../lib/index');
 
 describe('md5', function() {
   it('should create an md5 hash given an object', function() {
@@ -69,14 +69,5 @@ describe('md5', function() {
     const hash = md5(view1);
 
     expect(hash).to.equal('54de58cbc6ba6add305aa93599d0e48f');
-  });
-
-  it('should convert and md5 hash to UUID', function() {
-    const data = {
-      name: 'carmine',
-    };
-    const hash = md5(data);
-    const uuid = md5ToUuid(hash);
-    expect(uuid).to.equal('889646a8-6fda-ec8c-619e-446bdf18553a');
   });
 });
