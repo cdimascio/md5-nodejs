@@ -62,6 +62,7 @@ const hash = md5(true);
 ## Convert to MD5 to UUID
 
 ```javascript
+const { md5ToUuid } = require('md5-node');
 const uuid = md5ToUuid(md5Hash)
 ```
 
