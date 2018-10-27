@@ -60,4 +60,4 @@ const hash = md5(true);
 ```
 
 ## License
-MIT
+[MIT](LICENSE)
