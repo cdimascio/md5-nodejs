@@ -3,7 +3,7 @@
 ![](https://travis-ci.com/cdimascio/md5-node.svg?branch=master)
 ![](https://img.shields.io/badge/license-MIT-blue.svg)
 
-A node module that hashes data to MD5. It can also convert MD5 hashes to UUIDs
+A node module that hashes data to MD5. It can also convert MD5 hashes to UUIDs. (Builds on Node.js lib crypto).
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/cdimascio/md5-node/master/assets/md5-node.png" width="300px">
