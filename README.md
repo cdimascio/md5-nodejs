@@ -1,4 +1,4 @@
-# md5-node
+# md5-nodejs
 
 ![](https://travis-ci.com/cdimascio/md5-node.svg?branch=master)
 ![](https://img.shields.io/badge/license-MIT-blue.svg)
@@ -18,7 +18,7 @@ npm install md5-node
 ## Usage
 
 ```javascript
-const { md5, md5ToUuid } = require('md5-node');
+const { md5, md5ToUuid } = require('md5-nodejs');
 const hash = md5('data to hash');
 const uuid = md5ToUuid(hash)
 ```
@@ -62,7 +62,7 @@ const hash = md5(true);
 ## Convert to MD5 to UUID
 
 ```javascript
-const { md5ToUuid } = require('md5-node');
+const { md5ToUuid } = require('md5-nodejs');
 const uuid = md5ToUuid(md5Hash)
 ```
 
