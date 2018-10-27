@@ -12,7 +12,7 @@ A node module that hashes data to MD5.
 ## Install
 
 ```shell
-npm install md5-node
+npm install md5-nodejs
 ```
 
 ## Usage
