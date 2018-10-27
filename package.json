@@ -1,5 +1,5 @@
 {
-  "name": "md5-node",
+  "name": "md5-nodejs",
   "version": "1.0.0",
   "description": "Utility to hash data to MD5 and/or convert MD5 hashes to UUID",
   "main": "lib/index.js",
