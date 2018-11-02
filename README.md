@@ -6,7 +6,7 @@
 A node module that hashes data to MD5.
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/cdimascio/md5-node/master/assets/md5-nodejs.png" width="300px">
+<img src="https://raw.githubusercontent.com/cdimascio/md5-node/master/assets/md5-nodejs.png" width="350px">
 </p>
 
 ## Install
