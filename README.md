@@ -1,6 +1,6 @@
 # md5-nodejs
 
-![](https://travis-ci.com/cdimascio/md5-node.svg?branch=master)
+![](https://travis-ci.org/cdimascio/md5-nodejs.svg?branch=master)
 ![](https://img.shields.io/badge/license-MIT-blue.svg)
 
 A node module that hashes data to MD5.
